@@ -22,34 +22,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <distributionManagement>
-  <repository>
-  <id>rahulkumarbold-visualstudio-com-rahulkumarbold-rahul-package-maven</id>
-  <url>https://rahulkumarbold.pkgs.visualstudio.com/_packaging/Rahul-Package-Maven/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-  </distributionManagement>
-  
-  <repositories>
-  
-    <repository>
-  <id>rahulkumarbold-visualstudio-com-rahulkumarbold-rahul-package-maven</id>
-  <url>https://rahulkumarbold.pkgs.visualstudio.com/_packaging/Rahul-Package-Maven/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-
-  </repositories>
-  
-  
 </project>
