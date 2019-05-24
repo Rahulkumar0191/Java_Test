@@ -12,6 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -22,34 +24,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <distributionManagement>
-  <repository>
-  <id>rahulkumarbold-visualstudio-com-rahulkumarbold-rahul-package-maven</id>
-  <url>https://rahulkumarbold.pkgs.visualstudio.com/_packaging/Rahul-Package-Maven/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-  </distributionManagement>
-  
-  <repositories>
-  
-    <repository>
-  <id>rahulkumarbold-visualstudio-com-rahulkumarbold-rahul-package-maven</id>
-  <url>https://rahulkumarbold.pkgs.visualstudio.com/_packaging/Rahul-Package-Maven/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-
-  </repositories>
-  
-  
 </project>
